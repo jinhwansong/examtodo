@@ -1,0 +1,9 @@
+.inner{width:1200px;margin:50px auto;}
+.inner .top{display:flex;justify-content: center;}
+.inner .top input{width:400px;border:1px solid #ddd; height:50px;padding:20px 20px;box-sizing: border-box;}
+.inner .top button{width:120px;height:50px;outline: 0;border:0;background:#E61E1E;color:#fff;cursor: pointer;}
+.inner h1{text-align: center;}
+.inner ul {display:flex;margin-top:50px;flex-wrap: wrap;    padding: 0;}
+.inner ul li{margin-right:20px;border-radius:10px;;box-sizing: border-box;width:285px;border:1px solid #E61E1E;padding:30px 30px;margin-top:20px;list-style: none;text-align: center;}
+.inner ul li:nth-child(4n){margin-right:0}
+.inner ul li:nth-child(-n+4){margin-top:0;}
